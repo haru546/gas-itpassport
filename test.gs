@@ -1,10 +1,10 @@
 'use strict'
 
 // LINE Messaging API用のチャネルアクセストークン
-const LINE_CHANNEL_ACCESS_TOKEN = "1jDxw9Mh7UxeTeavRcsXms/WmfR9RfeO5IwyWvxX8MmWWjMesqb8ioL7jnJLLujeI7EaQLhQLMZauaF01d2tn6DH/Jq46pgJ9qr3MZBkss2ARxrNKYa7GaELkXTmxtWXKPS1rDAl9jkUoF+D0arx9QdB04t89/1O/w1cDnyilFU=";
+const LINE_CHANNEL_ACCESS_TOKEN = "my token";
 
 // Google SpreadsheetのスプレッドシートID
-const SPREADSHEET_ID = "1bw0auUTUnH-6wN41p_ZvXZm8Z0HY4o8jRtHZN34Bjf8";
+const SPREADSHEET_ID = "my id";
 
 // LINE Messaging APIからのメッセージを処理する関数
 function doPost(e) {
