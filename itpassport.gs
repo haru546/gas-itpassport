@@ -1,7 +1,7 @@
 'use strict'
 
 // LINEチャネルアクセストークン
-const channelAccessToken = "1jDxw9Mh7UxeTeavRcsXms/WmfR9RfeO5IwyWvxX8MmWWjMesqb8ioL7jnJLLujeI7EaQLhQLMZauaF01d2tn6DH/Jq46pgJ9qr3MZBkss2ARxrNKYa7GaELkXTmxtWXKPS1rDAl9jkUoF+D0arx9QdB04t89/1O/w1cDnyilFU=";
+const channelAccessToken = "my token";
 
 // LINE Messaging APIからのリクエストを処理する関数
 function doPost(e) {
@@ -9,7 +9,7 @@ function doPost(e) {
   let replyToken = json.events[0].replyToken;
 
   // Google SheetsのIDとシート名
-  const spreadsheetId = "1bw0auUTUnH-6wN41p_ZvXZm8Z0HY4o8jRtHZN34Bjf8";
+  const spreadsheetId = "my sheet";
   const sheetName = "単語";
 
   // Google Sheetsからのデータ取得
